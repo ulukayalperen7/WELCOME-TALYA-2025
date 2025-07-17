@@ -5,6 +5,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+.contributors-section {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.contributors-section h3 {
+  color: rgba(0, 245, 255, 0.8);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.contributors-section ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.contributors-section li {
+  margin-bottom: 8px;
+}
+
+.contributors-section a {
+  color: #00f5ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contributors-section a:hover {
+  color: #ff00f5;
+  text-shadow: 0 0 5px rgba(255, 0, 245, 0.5);
+}
 
 body {
   font-family: 'Space Grotesk', sans-serif;
